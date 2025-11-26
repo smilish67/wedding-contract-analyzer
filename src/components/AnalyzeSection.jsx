@@ -145,7 +145,7 @@ export default function AnalyzeSection() {
                     </div>
                     <h3 className="text-2xl font-bold text-foreground mb-3">계약서 업로드</h3>
                     <p className="text-muted-foreground mb-8 max-w-xs leading-relaxed">
-                      계약서 이미지나 PDF 파일을<br />여기로 끌어놓거나 클릭해서 업로드하세요
+                      계약서 이미지나 PDF 파일을<br />여기로 끌어놓거나 클릭해서 업로드하세요<br /> <u>개인 정보는 가려서 업로드 해주세요.</u>
                     </p>
                     <div className="btn btn-primary h-12 px-8 rounded-full text-base shadow-lg group-hover:shadow-primary/25 transition-all">
                       <Upload className="w-5 h-5 mr-2" /> 파일 선택하기
