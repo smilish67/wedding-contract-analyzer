@@ -43,7 +43,7 @@ export default function AnalyzeSection() {
       const formData = new FormData()
       formData.append('file', file)
 
-      const response = await fetch('https://n8n.dpgtestbed.kr/webhook-test/analyzeContract', {
+      const response = await fetch('https://n8n.dpgtestbed.kr/webhook/analyzeContract', {
         method: 'POST',
         body: formData,
       })
