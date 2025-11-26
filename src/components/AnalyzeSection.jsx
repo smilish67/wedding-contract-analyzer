@@ -136,7 +136,7 @@ export default function AnalyzeSection() {
                         <Loader2 className="w-10 h-10 text-primary animate-spin" />
                     </div>
                     <h3 className="text-2xl font-bold text-foreground mb-2">분석 중입니다</h3>
-                    <p className="text-muted-foreground">잠시만 기다려주세요...</p>
+                    <p className="text-muted-foreground">잠시만 기다려주세요... 최대 2분 소요될 수 있습니다.</p>
                   </div>
                 ) : (
                   <>
@@ -214,8 +214,7 @@ export default function AnalyzeSection() {
                             {[
                                 { title: '자동 텍스트 추출', desc: 'OCR 기술로 계약서 내용을 인식합니다' },
                                 { title: '표준약관 비교', desc: '공정위 표준약관과 조항을 대조합니다' },
-                                { title: 'AI 위험도 평가', desc: '불공정 조항 및 독소 조항을 탐지합니다' },
-                                { title: '전문가 검토 완료', desc: '변호사 검수를 거친 데이터로 분석합니다' }
+                                { title: 'AI 위험도 평가', desc: '불공정 조항 및 독소 조항을 탐지합니다' }
                             ].map((step, idx) => (
                                 <div key={idx} className="flex gap-4 items-start">
                                     <div className="w-7 h-7 rounded-full bg-background border-2 border-primary z-10 flex-shrink-0"></div>
